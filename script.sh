@@ -16,7 +16,6 @@ apt install wget make gcc linux-headers-generic
 git clone https://github.com/davidjo/snd_hda_macbookpro.git
 cd snd_hda_macbookpro/
 sudo ./install.cirrus.driver.sh
-reboot
 
 #Fix Wake-from-sleep
 sudo -s
